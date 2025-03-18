@@ -18,35 +18,35 @@ interface FeatureProps {
 
 const features: FeatureProps[] = [
   {
-    title: "Responsive Design",
+    title: "Coinflow",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Incent App to feature ads",
     image: image4,
   },
   {
-    title: "Intuitive user interface",
+    title: "Zyrocraft",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Game studio",
     image: image3,
   },
   {
-    title: "AI-Powered insights",
+    title: "AI-Powered blog Automation",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Blog automation",
     image: image,
   },
 ];
-
+//we will change images later on
 const featureList: string[] = [
-  "Dark/Light theme",
+  //"Dark/Light theme",
   "Reviews",
   "Features",
   "Pricing",
-  "Contact form",
+  "Contact us",
   "Our team",
-  "Responsive design",
+  "Ad revenue",
   "Newsletter",
-  "Minimalist",
+ // "Minimalist",
 ];
 
 export const Features = () => {
@@ -56,12 +56,12 @@ export const Features = () => {
       className="container py-24 sm:py-32 space-y-8"
     >
       <h2 className="text-3xl lg:text-4xl font-bold md:text-center">
-        Many{" "}
+        Our {" "}
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-          Great Features
+          Products
         </span>
       </h2>
-
+      
       <div className="flex flex-wrap md:justify-center gap-4">
         {featureList.map((feature: string) => (
           <div key={feature}>
@@ -97,3 +97,5 @@ export const Features = () => {
     </section>
   );
 };
+
+//in the cards we need to put our products 

@@ -10,21 +10,21 @@ interface ServiceProps {
 
 const serviceList: ServiceProps[] = [
   {
-    title: "Code Collaboration",
+    title: "App Monetization",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "we write about app monetization.",
     icon: <ChartIcon />,
   },
   {
-    title: "Project Management",
+    title: "Game Monetization",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "we write about game monetization.",
     icon: <WalletIcon />,
   },
   {
-    title: "Task Automation",
+    title: "Offerwall",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "we write about offerwall.",
     icon: <MagnifierIcon />,
   },
 ];

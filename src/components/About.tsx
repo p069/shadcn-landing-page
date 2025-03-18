@@ -1,5 +1,6 @@
 import { Statistics } from "./Statistics";
-import pilot from "../assets/pilot.png";
+import mobile from "../assets/mobile.png";
+import { Button } from "./ui/button";
 
 export const About = () => {
   return (
@@ -10,7 +11,7 @@ export const About = () => {
       <div className="bg-muted/50 border rounded-lg py-12">
         <div className="px-6 flex flex-col-reverse md:flex-row gap-8 md:gap-12">
           <img
-            src={pilot}
+            src={mobile}
             alt=""
             className="w-[300px] object-contain rounded-lg"
           />
@@ -20,7 +21,7 @@ export const About = () => {
                 <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
                   About{" "}
                 </span>
-                Company
+                Us
               </h2>
               <p className="text-xl text-muted-foreground mt-4">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -30,8 +31,10 @@ export const About = () => {
                 amet, consectetur adipiscing elit.
               </p>
             </div>
+            
 
             <Statistics />
+            
           </div>
         </div>
       </div>

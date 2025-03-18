@@ -16,13 +16,13 @@ const features: FeatureProps[] = [
   },
   {
     icon: <MapIcon />,
-    title: "Community",
+    title: "Offerwall",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
   },
   {
     icon: <PlaneIcon />,
-    title: "Scalability",
+    title: "Growth",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
   },
@@ -41,15 +41,14 @@ export const HowItWorks = () => {
       className="container text-center py-24 sm:py-32"
     >
       <h2 className="text-3xl md:text-4xl font-bold ">
-        How It{" "}
+      One platform.{" "}
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-          Works{" "}
+        Multiple solutions. {" "}
         </span>
-        Step-by-Step Guide
+        Infinite growth
       </h2>
       <p className="md:w-3/4 mx-auto mt-4 mb-8 text-xl text-muted-foreground">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
-        dolor pariatur sit!
+      Earn with Immersive Ads.Make incremental revenue by adding immersive ads to your unused game space!
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">

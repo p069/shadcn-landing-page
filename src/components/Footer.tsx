@@ -13,7 +13,7 @@ export const Footer = () => {
             className="font-bold text-xl flex"
           >
             <LogoIcon />
-            ShadcnUI/React
+            AdVise
           </a>
         </div>
 
@@ -25,7 +25,7 @@ export const Footer = () => {
               href="#"
               className="opacity-60 hover:opacity-100"
             >
-              Github
+              Facebook
             </a>
           </div>
 
@@ -45,20 +45,20 @@ export const Footer = () => {
               href="#"
               className="opacity-60 hover:opacity-100"
             >
-              Dribbble
+              Instagram
             </a>
           </div>
         </div>
 
         <div className="flex flex-col gap-2">
-          <h3 className="font-bold text-lg">Platforms</h3>
+          <h3 className="font-bold text-lg">Services</h3>
           <div>
             <a
               rel="noreferrer noopener"
               href="#"
               className="opacity-60 hover:opacity-100"
             >
-              Web
+              Game Monetization
             </a>
           </div>
 
@@ -68,7 +68,7 @@ export const Footer = () => {
               href="#"
               className="opacity-60 hover:opacity-100"
             >
-              Mobile
+              App Monetization
             </a>
           </div>
 
@@ -78,20 +78,20 @@ export const Footer = () => {
               href="#"
               className="opacity-60 hover:opacity-100"
             >
-              Desktop
+              Ad integration
             </a>
           </div>
         </div>
 
         <div className="flex flex-col gap-2">
-          <h3 className="font-bold text-lg">About</h3>
+          <h3 className="font-bold text-lg">Products</h3>
           <div>
             <a
               rel="noreferrer noopener"
               href="#"
               className="opacity-60 hover:opacity-100"
             >
-              Features
+              Coinflow
             </a>
           </div>
 
@@ -101,7 +101,7 @@ export const Footer = () => {
               href="#"
               className="opacity-60 hover:opacity-100"
             >
-              Pricing
+              Zyrocraft
             </a>
           </div>
 
@@ -111,7 +111,7 @@ export const Footer = () => {
               href="#"
               className="opacity-60 hover:opacity-100"
             >
-              FAQ
+              Gamezhub
             </a>
           </div>
         </div>
@@ -150,7 +150,7 @@ export const Footer = () => {
         </div>
       </section>
 
-      <section className="container pb-14 text-center">
+      {/* <section className="container pb-14 text-center">
         <h3>
           &copy; 2024 Landing page made by{" "}
           <a
@@ -162,7 +162,7 @@ export const Footer = () => {
             Leo Miranda
           </a>
         </h3>
-      </section>
+      </section> */}
     </footer>
   );
 };
